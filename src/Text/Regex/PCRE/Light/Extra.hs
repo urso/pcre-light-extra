@@ -58,5 +58,6 @@ cfg = Regex
 withExecOpts :: [R.PCREExecOption] -> R.Regex -> RegexExecPattern
 withExecOpts = RegexExec
 
-caseInsensitive = Regex [R.caseless, R.no_utf8_check] []
+caseSensitive False = Regex [R.caseless, R.no_utf8_check] []
+caseSensitive True = Regex [R.no_utf8_check] []
 
