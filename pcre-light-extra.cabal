@@ -10,7 +10,7 @@ Name:                pcre-light-extra
 Version:             0.0.0
 
 -- A short (one-line) description of the package.
-Synopsis:            pcre-light extensions, types and typeclasses for simplifying  usage of pcre-light
+Synopsis:            pcre-light extra functionality
 
 -- A longer description of the package.
 -- Description:         
